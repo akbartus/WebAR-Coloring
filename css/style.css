@@ -1,0 +1,49 @@
+#container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    background: rgba(0, 0, 0, 1);
+    display: none;
+}
+
+#photo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    border: 2px solid #fff;
+
+    z-index: 2;
+    display: none;
+
+}
+
+#photo-button {
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translate(-50%, 0);
+    z-index: 3;
+}
+
+#canvas {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    z-index: 8;
+    width: 300px;
+    height: 200px;
+}
+
+#icon-overlay {
+    text-align: center;
+}
+
+#icon-overlay.hidden {
+    /* display: none; */
+}
