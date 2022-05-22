@@ -52,7 +52,7 @@ return { blob: blob, dataUri: dataUri, format: format, width: canvas.width, heig
 
 
 function removeBackground(container, frame) {
-fetch('https://hf.space/embed/Akbartus/image-masking/+/api/predict/', {
+fetch('https://hf.space/embed/xiongjie/u2net_rgba/+/api/predict/', {
     method: "POST",
     body: JSON.stringify({
         "data": ["binary", frame]
