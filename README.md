@@ -45,7 +45,7 @@ Web AR coloring works in following way:
 
 Texture mapping represents an important step in making sure that web AR coloring works as intended. Depending on the complexity of a 3D model as well as result to be achieved various texture mapping methods can be applied. I suggest to use Blender to prepare 3D model with texture map. 
 
-The following video tutorials can be used to map texture:
+The following video tutorials can be used to learn texture mapping:
 
 Please note: Make sure to apply texture to 3D model, when creating/preparing the 3D model in Blender. This texture will later be replaced with the new one when OpenCV algorithm is called. Without this step web AR coloring will not work!  
 
