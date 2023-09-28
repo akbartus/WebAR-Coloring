@@ -2,19 +2,13 @@
 <img src="img/screenshot.gif" title="screen capture" alt="screen capture" width="250" style="text-align: center">
 
 ### **Description / Rationale**
-This repository contains the algorithm and various implementations of a coloring task for web-based augmented reality. Creation of this repository was dictated by the fact that at present there no similar works, which are open-source and affordable. I hope that open-sourcing this repository will help to advance further immersive technologies as web AR and attract more developers to them.
+This repository contains the algorithm and various implementations of web-based augmented reality coloring. Creation of this repository was dictated by the fact that at present there no similar works, which are open-source and affordable. I hope that open-sourcing this repository will help to advance further immersive technologies as web AR and attract more developers to them.
 
 ### **Instructions**
-The repository contains the following implementations/demos: 
+The repository contains the implementations/demos for: 
 * MindAR.js: 
-    - Simple Web AR coloring of a plane.
-    - Simple Web AR coloring of a box.
-    - Web AR coloring of a 3D model with animation.
-    - Runtime web AR coloring of a 3D model with webcamera feed.
 * AR.js:
-    - Marker-based Web AR coloring of a 3D model.
 * SimpleAR:
-    - Web AR coloring of a 3D model
 
 Besides these, the repository contains A-Frame component, which can be used in the following way: 
 
@@ -102,8 +96,15 @@ The library(platform) is compatible with latest version of A-Frame (1.4.2). Test
 Example implementation of Simple AR is also given for Three.js and Babylon.js (see "other_frameworks" folder).   
 
 ### **Demo**
+The repository contains the following implementations/demos: 
+* MindAR.js: 
+    - Simple Web AR coloring of a plane.
+    - Simple Web AR coloring of a box.
+    - Web AR coloring of a 3D model with animation.
+    - Runtime web AR coloring of a 3D model with webcamera feed.
+* AR.js:
+    - Marker-based Web AR coloring of a 3D model.
+* SimpleAR:
+    - Web AR coloring of a 3D model
 See A-Frame demo here: [Demo](https://webar-simple.glitch.me/)
 
-See ThreeJs demo here: [Demo](https://simplear-threejs.glitch.me/)
-
-See BabylonJs demo here: [Demo](https://simplear-babylonjs.glitch.me/)
