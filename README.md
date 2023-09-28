@@ -36,6 +36,18 @@ Besides these, the repository contains A-Frame component, which can be used in t
 </html>
 ```
 
+### **Texture Mapping**
+On the back of web AR coloring the following occurs: 
+1. 3D model texture map is prepated, which is used as image target and texture of 3D model.
+2. Webcamera video frame is taken.
+3. It is passed over to OpenCV algorithm, which segments a rectangular/square region, which contains 4 corners (i.e. this is how image targets on white physical papers/documents are segmented). 
+4. Segmented region, i.e. rectangle/square texture is set on 3D model.
+
+Texture mapping represents an important step in making sure that web AR coloring works as intended. Depending on the complexity of a 3D model as well as result to be achieved various texture mapping methods can be applied. I suggest to use Blender to prepare 3D model with texture map. 
+
+The following video tutorials can be used to map texture:
+
+
 ### **Tech Stack**
 The web AR coloring is powered by AFrame, Three.js and OpenCV.js and web AR libraries as MindAR.js, AR.js, SimpleAR. The 3D model of the raccoon was taken from MindAR.js repository.   
 
