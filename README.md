@@ -37,7 +37,7 @@ Besides these, the repository contains A-Frame component, which can be used in t
 ```
 
 ### **Texture Mapping**
-On the back of web AR coloring the following occurs: 
+Web AR coloring works in following way: 
 1. 3D model texture map is prepated, which is used as image target and texture of 3D model.
 2. Webcamera video frame is taken.
 3. It is passed over to OpenCV algorithm, which segments a rectangular/square region, which contains 4 corners (i.e. this is how image targets on white physical papers/documents are segmented). 
