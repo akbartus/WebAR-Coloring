@@ -47,6 +47,7 @@ Texture mapping represents an important step in making sure that web AR coloring
 
 The following video tutorials can be used to map texture:
 
+Please note: Make sure to apply texture to 3D model, when creating/preparing the 3D model in Blender. This texture will later be replaced with the new one when OpenCV algorithm is called. Without this step web AR coloring will not work!  
 
 ### **Tech Stack**
 The web AR coloring is powered by AFrame, Three.js and OpenCV.js and web AR libraries as MindAR.js, AR.js, SimpleAR. The 3D model of the raccoon was taken from MindAR.js repository.   
