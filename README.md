@@ -7,14 +7,14 @@ This repository contains the algorithm and various implementations of a coloring
 ### **Instructions**
 The repository contains the following implementations/demos: 
 * MindAR.js: 
-    1. Simple Web AR coloring of a plane.
-    2. Simple Web AR coloring of a box.
-    3. Web AR coloring of a 3D model with animation.
-    4. Runtime web AR coloring of a 3D model with webcamera feed.
+    - Simple Web AR coloring of a plane.
+    - Simple Web AR coloring of a box.
+    - Web AR coloring of a 3D model with animation.
+    - Runtime web AR coloring of a 3D model with webcamera feed.
 * AR.js:
-    1. Marker-based Web AR coloring of a 3D model.
+    - Marker-based Web AR coloring of a 3D model.
 * SimpleAR:
-    1. Web AR coloring of a 3D model
+    - Web AR coloring of a 3D model
 
 Besides these, the repository contains A-Frame component, which can be used in the following way: 
 
