@@ -37,7 +37,7 @@ Besides these, the repository contains A-Frame component, which can be used in t
 ```
 
 ### **Tech Stack**
-The web AR coloring is powered by AFrame, Three.js and OpenCV.js and web AR libraries as MindAR.js, AR.js, SimpleAR.   
+The web AR coloring is powered by AFrame, Three.js and OpenCV.js and web AR libraries as MindAR.js, AR.js, SimpleAR. The 3D model of the raccoon was taken from MindAR.js repository.   
 
 ### **Demo**
 The repository contains the following implementations/demos: 
