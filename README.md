@@ -47,8 +47,9 @@ Texture mapping represents an important step in making sure that web AR coloring
 https://www.youtube.com/watch?v=32lQxcIjxMU 
 
 The following video tutorials can be used to learn texture mapping specifically in the context of AR coloring:
-https://www.youtube.com/watch?v=6_w8tiEo4aI
-https://www.youtube.com/watch?v=32lQxcIjxMU 
+* https://www.youtube.com/watch?v=6_w8tiEo4aI
+* https://www.youtube.com/watch?v=32lQxcIjxMU
+* https://www.youtube.com/watch?v=kERzhJKYvGo (see in particular from the place, where it shows texture mapping on Blender, 10:11) 
 
 <b>Please note:</b> Make sure to apply texture to 3D model, when creating/preparing the 3D model in Blender. This texture will later be replaced with the new one when OpenCV algorithm is called. Without this step web AR coloring will not work!
 
