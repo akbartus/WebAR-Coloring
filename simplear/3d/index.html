@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple AR: WebAR coloring with 3D Model</title>
+  <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+  <script src="opencv.js"></script>
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/gh/akbartus/Simple-AR/dist/0.1.2/simple-ar.min.js" onload="onWasmLoaded();"></script>
+  <a-scene>
+    <a-entity simple-ar="src: raccoon_target_for_using2.jpg; minCutOffValue: 1; betaValue:0.1;">
+      <a-entity id="example-3D" gltf-model="raccoon.glb" class="clickable" position="0 0 0" rotation="0 0 0"
+        scale="0.1 0.1 0.1"></a-entity>
+    </a-entity>
+    <a-camera position="0 0 0" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable"></a-camera>
+  </a-scene>
+  <script src="script.js"></script>
+</body>
+</html>
