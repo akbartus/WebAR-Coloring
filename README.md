@@ -2,7 +2,7 @@
 <img src="img/screenshot.gif" title="screen capture" alt="screen capture" width="250" style="text-align: center">
 
 ### **Description / Rationale**
-This repository contains the algorithm and various implementations of web-based augmented reality coloring. Creation of this repository was dictated by the fact that at present there are no similar works, which are open-source and affordable (all existing web AR coloring examples are not free). I hope that open-sourcing this repository will help to advance further immersive technologies as web AR and attract more developers to open-source.
+This repository contains the algorithm and various implementations of web-based augmented reality coloring. Creation of this repository was dictated by the fact that at present there are no similar works, which are open-source and affordable (all existing web AR coloring examples are not free). I hope that open-sourcing this repository will help to advance further immersive technologies as web AR and attract more developers to them.
 
 ### **Instructions**
 The repository contains the implementations/demos for: 
@@ -61,10 +61,11 @@ The following video tutorials can be used to learn texture mapping specifically 
 
 
 ### **UPDATES**
-This is the very first version of the repository. In the near future there will be additions.
+This is the very first version of the repository. In the future there will be more examples with other AR frameworks.
 
 ### **Tech Stack**
-The web AR coloring is powered by AFrame, Three.js and OpenCV.js and web AR libraries as MindAR.js, AR.js, SimpleAR. The 3D model of the raccoon was taken from MindAR.js repository.   
+The web AR coloring is powered by AFrame, Three.js and OpenCV.js (to learn more about OpenCV.js and its various uses, please refer to another repository: https://github.com/akbartus/OpenCV-Examples-in-JavaScript) and web AR libraries as MindAR.js, AR.js, SimpleAR. The 3D model of the raccoon was taken from MindAR.js repository.
+   
 
 ### **Demo**
 The repository contains the following implementations/demos: 
