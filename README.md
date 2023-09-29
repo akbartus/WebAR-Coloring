@@ -65,8 +65,9 @@ This is the very first version of the repository. In the future there will be mo
 
 
 ### **Tech Stack**
-The web AR coloring is powered by AFrame, Three.js and OpenCV.js (to learn more about OpenCV.js and its various uses, please refer to another repository: https://github.com/akbartus/OpenCV-Examples-in-JavaScript) and web AR libraries as <a href="https://github.com/hiukim/mind-ar-js">MindAR.js</a>, <a href="https://github.com/AR-js-org/AR.js">AR.js</a>, <a href="https://github.com/akbartus/Simple-AR">SimpleAR</a>. The 3D model of the raccoon was taken from <a href="https://github.com/hiukim/mind-ar-js/tree/master/examples/image-tracking/assets/band-example/raccoon">MindAR.js repository</a>.
-   
+The web AR coloring is powered by AFrame, Three.js and OpenCV.js and web AR libraries as <a href="https://github.com/hiukim/mind-ar-js">MindAR.js</a>, <a href="https://github.com/AR-js-org/AR.js">AR.js</a>, <a href="https://github.com/akbartus/Simple-AR">SimpleAR</a>. The 3D model of the raccoon was taken from <a href="https://github.com/hiukim/mind-ar-js/tree/master/examples/image-tracking/assets/band-example/raccoon">MindAR.js repository</a>.
+
+To learn more about OpenCV.js and its various uses, please refer to another repository: https://github.com/akbartus/OpenCV-Examples-in-JavaScript.    
 
 ### **Demo**
 The repository contains the following implementations/demos: 
