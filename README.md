@@ -35,12 +35,13 @@ Besides these, the repository contains A-Frame component, which can be used in t
 </body>
 </html>
 ```
+And, in order to apply the coloring, just click on 3D model.
 
 ### **Texture Mapping**
 Web AR coloring works in following way: 
-1. 3D model texture map is prepared, which is used as image target and texture of 3D model.
+1. 3D model texture map is prepared, which is used as image target and as texture of 3D model.
 2. Webcamera video frame is taken.
-3. It is passed over to OpenCV algorithm, which segments a rectangular/square region, which contains 4 points (i.e. this is how image targets on white physical papers/documents are segmented; it is also possible to get differently shaped region, which is not a rectangle/square as well, but it is not as common as rectangular/square region).  
+3. It is passed over to OpenCV algorithm, which segments a rectangular/square region, which contains 4 points (i.e. this is how image targets on white physical papers/documents are segmented; it is also possible to get differently shaped region, which is not a rectangle/square as well, but it is not as common as rectangular/square region; notably, the sam algorithm is used in creating Document Scanner Apps).   
 4. Segmented region, i.e. rectangle/square texture, is set on 3D model.
 
 Texture mapping represents an important step in making sure that web AR coloring works as intended. Depending on the complexity of a 3D model as well as result to be achieved various texture mapping methods can be applied. I suggest to use Blender to prepare 3D model with texture map.
@@ -71,7 +72,7 @@ The repository contains the following implementations/demos:
     - Simple Web AR coloring of a plane.
     - Simple Web AR coloring of a box.
     - Web AR coloring of a 3D model with animation.
-    - Runtime web AR coloring of a 3D model with webcamera feed.
+    - Runtime/live web AR coloring of a 3D model with webcamera feed.
 * AR.js:
     - Marker-based Web AR coloring of a 3D model.
 * SimpleAR:
