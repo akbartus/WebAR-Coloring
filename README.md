@@ -44,7 +44,6 @@ Web AR coloring works in following way:
 4. Segmented region, i.e. rectangle/square texture, is set on 3D model.
 
 Texture mapping represents an important step in making sure that web AR coloring works as intended. Depending on the complexity of a 3D model as well as result to be achieved various texture mapping methods can be applied. I suggest to use Blender to prepare 3D model with texture map.
-https://www.youtube.com/watch?v=32lQxcIjxMU 
 
 The following video tutorials can be used to learn texture mapping specifically in the context of AR coloring:
 * https://www.youtube.com/watch?v=6_w8tiEo4aI
