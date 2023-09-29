@@ -56,6 +56,12 @@ The following video tutorials can be used to learn texture mapping specifically 
 
 <b>Please note:</b> The texture in the examples containing 3D model is applied only to a part of the model.   
 
+<b>Please note:</b> The texture mapping could be applied in relation to animated models as well (which means that you can use animated 3D models). It is also possible to apply texture mapping to 3D models, parts of which, during the first load could be placed to different locations in 3D space (for example consider a 3D model of a house separated into parts to make it easier for texture mapping, which come together to create a house after loading of the scene). 
+
+
+### **UPDATES**
+This is the very first version of the repository. In the near future there will be additions.
+
 ### **Tech Stack**
 The web AR coloring is powered by AFrame, Three.js and OpenCV.js and web AR libraries as MindAR.js, AR.js, SimpleAR. The 3D model of the raccoon was taken from MindAR.js repository.   
 
