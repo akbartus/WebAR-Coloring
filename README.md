@@ -51,7 +51,9 @@ https://www.youtube.com/watch?v=6_w8tiEo4aI
 https://www.youtube.com/watch?v=32lQxcIjxMU 
 
 <b>Please note:</b> Make sure to apply texture to 3D model, when creating/preparing the 3D model in Blender. This texture will later be replaced with the new one when OpenCV algorithm is called. Without this step web AR coloring will not work!
+
 <b>Please note:</b> Tracking could be improved in runtime/live web AR coloring by making target with more features and the actual texture, applied to 3D model smaller.
+
 <b>Please note:</b> The texture in the examples containing 3D model is applied only to a part of the model.   
 
 ### **Tech Stack**
