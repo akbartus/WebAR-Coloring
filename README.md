@@ -55,7 +55,9 @@ The following video tutorials can be used to learn texture mapping specifically 
 
 <b>Please note:</b> Tracking could be improved in runtime/live web AR coloring by making target with more features and the actual texture, applied to 3D model smaller.
 
-<b>Please note:</b> The texture in the examples containing 3D model is applied only to a part of the model.   
+<b>Please note:</b> The texture in the examples containing 3D model is applied only to a part of the model.  
+
+<b>Please note:</b> SimpleAR implementation of web AR coloring requires separately compiled OpenCV.js.  
 
 <b>Please note:</b> The texture mapping could be applied in relation to animated models as well (which means that you can use animated 3D models). It is also possible to apply texture mapping to 3D models, parts of which, during the first load could be placed to different locations in 3D space (for example consider a 3D model of a house separated into parts to make it easier for texture mapping, which come together to create a house after loading of the scene). 
 
@@ -80,4 +82,5 @@ The repository contains the following implementations/demos:
     - Marker-based Web AR coloring of a 3D model.
 * SimpleAR:
     - Web AR coloring of a 3D model.
-* A-Frame component.
+* A-Frame component:
+    - Example implementation.
