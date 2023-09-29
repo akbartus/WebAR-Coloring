@@ -38,16 +38,21 @@ Besides these, the repository contains A-Frame component, which can be used in t
 
 ### **Texture Mapping**
 Web AR coloring works in following way: 
-1. 3D model texture map is prepated, which is used as image target and texture of 3D model.
+1. 3D model texture map is prepared, which is used as image target and texture of 3D model.
 2. Webcamera video frame is taken.
-3. It is passed over to OpenCV algorithm, which segments a rectangular/square region, which contains 4 corners (i.e. this is how image targets on white physical papers/documents are segmented). 
-4. Segmented region, i.e. rectangle/square texture is set on 3D model.
+3. It is passed over to OpenCV algorithm, which segments a rectangular/square region, which contains 4 points (i.e. this is how image targets on white physical papers/documents are segmented; it is also possible to get differently shaped region, which is not a rectangle/square as well, but it is not as common as rectangular/square region).  
+4. Segmented region, i.e. rectangle/square texture, is set on 3D model.
 
-Texture mapping represents an important step in making sure that web AR coloring works as intended. Depending on the complexity of a 3D model as well as result to be achieved various texture mapping methods can be applied. I suggest to use Blender to prepare 3D model with texture map. 
+Texture mapping represents an important step in making sure that web AR coloring works as intended. Depending on the complexity of a 3D model as well as result to be achieved various texture mapping methods can be applied. I suggest to use Blender to prepare 3D model with texture map.
+https://www.youtube.com/watch?v=32lQxcIjxMU 
 
-The following video tutorials can be used to learn texture mapping:
+The following video tutorials can be used to learn texture mapping specifically in the context of AR coloring:
+https://www.youtube.com/watch?v=6_w8tiEo4aI
+https://www.youtube.com/watch?v=32lQxcIjxMU 
 
-Please note: Make sure to apply texture to 3D model, when creating/preparing the 3D model in Blender. This texture will later be replaced with the new one when OpenCV algorithm is called. Without this step web AR coloring will not work!  
+<b>Please note:</b> Make sure to apply texture to 3D model, when creating/preparing the 3D model in Blender. This texture will later be replaced with the new one when OpenCV algorithm is called. Without this step web AR coloring will not work!
+<b>Please note:</b> Tracking could be improved in runtime/live web AR coloring by making target with more features and the actual texture, applied to 3D model smaller.
+<b>Please note:</b> The texture in the examples containing 3D model is applied only to a part of the model.   
 
 ### **Tech Stack**
 The web AR coloring is powered by AFrame, Three.js and OpenCV.js and web AR libraries as MindAR.js, AR.js, SimpleAR. The 3D model of the raccoon was taken from MindAR.js repository.   
@@ -63,4 +68,3 @@ The repository contains the following implementations/demos:
     - Marker-based Web AR coloring of a 3D model.
 * SimpleAR:
     - Web AR coloring of a 3D model.
-
