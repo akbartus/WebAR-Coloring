@@ -2,7 +2,7 @@
 <img src="img/screenshot.gif" title="screen capture" alt="screen capture" width="250" style="text-align: center">
 
 ### **Description / Rationale**
-This repository contains the algorithm and various implementations of web-based augmented reality coloring. Creation of this repository was dictated by the fact that at present there no similar works, which are open-source and affordable. I hope that open-sourcing this repository will help to advance further immersive technologies as web AR and attract more developers to them.
+This repository contains the algorithm and various implementations of web-based augmented reality coloring. Creation of this repository was dictated by the fact that at present there are no similar works, which are open-source and affordable (all existing web AR coloring examples are not free). I hope that open-sourcing this repository will help to advance further immersive technologies as web AR and attract more developers to them.
 
 ### **Instructions**
 The repository contains the implementations/demos for: 
