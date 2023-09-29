@@ -74,13 +74,13 @@ To learn more about OpenCV.js and its various uses, please refer to another repo
 ### **Demo**
 The repository contains the following implementations/demos: 
 * MindAR.js: 
-    - Simple Web AR coloring of a plane.
-    - Simple Web AR coloring of a box.
-    - Web AR coloring of a 3D model with animation.
-    - Runtime/live web AR coloring of a 3D model with webcamera feed.
+    - <a href="https://webarcoloring-plane.glitch.me/">Simple Web AR coloring of a plane</a> and <a href="img/target_plane.jpg">image target</a>.
+    - <a href="https://webarcoloring-box.glitch.me/">Simple Web AR coloring of a box</a> and <a href="img/target_box.jpg">image target</a>.
+    - <a href="https://webarcoloring-3d.glitch.me/">Web AR coloring of a 3D model with animation</a> and <a href="img/target_3d.jpg">image target 1</a> or <a href="img/target_3d2.jpg">image target 2</a>.
+    - <a href="https://webarcoloring-video.glitch.me/">Runtime/live web AR coloring of a 3D model with webcamera feed</a> and <a href="img/target_3d.jpg">image target 1</a> or <a href="img/target_3d2.jpg">image target 2</a>.
 * AR.js:
-    - Marker-based Web AR coloring of a 3D model.
+    - <a href="https://webarcoloring-arjs.glitch.me/">Marker-based Web AR coloring of a 3D model</a> and <a href="img/target_arjs.png">image target</a>.
 * SimpleAR:
-    - Web AR coloring of a 3D model.
+    - <a href="https://webarcoloring-simplear.glitch.me/">Web AR coloring of a 3D model</a> and <a href="img/target_3d.jpg">image target 1</a> or <a href="img/target_3d2.jpg">image target 2</a>.
 * A-Frame component:
-    - Example implementation.
+    - <a href="https://webarcoloring-component.glitch.me/">Example implementation</a> and <a href="img/target_3d.jpg">image target 1</a> or <a href="img/target_3d2.jpg">image target 2</a>.
