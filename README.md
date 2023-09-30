@@ -68,7 +68,7 @@ This is the very first version of the repository. In the future there will be mo
 ### **Q&A**
 * **What is web AR coloring?** In simple words it is applying the texture of an image target onto 3D model/object.
 * **Can I color the image target in web AR coloring?** Yes, you can color the image target. In fact, web AR coloring is made specifically for this, i.e. creating coloring pages, which after coloring can be applied as textures onto 3D models/objects.
-* **Are region capture and web AR coloring the same thing?** Yes, while the former is more technical, the latter is more descriptive.
+* **Is region capture the same thing as AR coloring ?** Yes, while the former is more technical, the latter is more descriptive.
 * **When AR coloeing appeared?** One of the first examples of AR coloring was provided already in 2015 by Disney Research team (see: https://www.theverge.com/2015/10/5/9453703/disney-research-augmented-reality-coloring-books).
 
 ### **Tech Stack**
