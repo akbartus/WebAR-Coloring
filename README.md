@@ -63,7 +63,7 @@ The following video tutorials can be used to learn texture mapping specifically 
 
 
 ### **UPDATES**
-This is the very first version of the repository. In the future there will be more examples with other AR frameworks.
+* Added example of texture mapping, which includes Blender file and others (see: "texture-mapping-example" folder).
 
 ### **Q&A**
 * **What is web AR coloring?** In simple words it is applying the texture of an image target onto 3D model/object.
