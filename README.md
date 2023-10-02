@@ -69,7 +69,7 @@ The following video tutorials can be used to learn texture mapping specifically 
 * **What is web AR coloring?** In simple words it is applying the texture of an image target onto 3D model/object.
 * **Can I color the image target in web AR coloring?** Yes, you can color the image target. In fact, web AR coloring is made specifically for this, i.e. creating coloring pages, which after coloring can be applied as textures onto 3D models/objects.
 * **Is region capture the same thing as AR coloring ?** Yes, while the former is more technical, the latter is more descriptive.
-* **When AR coloeing appeared?** One of the first examples of AR coloring was provided already in 2015 by Disney Research team (see: https://www.theverge.com/2015/10/5/9453703/disney-research-augmented-reality-coloring-books).
+* **When AR coloring appeared?** One of the first examples of AR coloring was provided already in 2015 by Disney Research team (see: https://www.theverge.com/2015/10/5/9453703/disney-research-augmented-reality-coloring-books).
 
 ### **Tech Stack**
 The web AR coloring is powered by AFrame, Three.js and OpenCV.js and web AR libraries as <a href="https://github.com/hiukim/mind-ar-js">MindAR.js</a>, <a href="https://github.com/AR-js-org/AR.js">AR.js</a>, <a href="https://github.com/akbartus/Simple-AR">SimpleAR</a>. The 3D model of the raccoon was taken from <a href="https://github.com/hiukim/mind-ar-js/tree/master/examples/image-tracking/assets/band-example/raccoon">MindAR.js repository</a> and under MIT License - Copyright (c) 2020 hiukim.
